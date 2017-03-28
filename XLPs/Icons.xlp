@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="icon_civilization_pech_colored"/>
+			<m_ObjectName text="icon_civilization_pech_colored"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mangrove_Atlas22"/>
+			<m_ObjectName text="Mangrove_Atlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mangrove_Atlas256"/>
+			<m_ObjectName text="Mangrove_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mangrove_Atlas32"/>
+			<m_ObjectName text="Mangrove_Atlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mangrove_Atlas50"/>
+			<m_ObjectName text="Mangrove_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mangrove_Atlas80"/>
+			<m_ObjectName text="Mangrove_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="mangrove_units256"/>
+			<m_ObjectName text="mangrove_units256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="mangrove_units32"/>
+			<m_ObjectName text="mangrove_units32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="mangrove_units38"/>
+			<m_ObjectName text="mangrove_units38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="mangrove_units50"/>
+			<m_ObjectName text="mangrove_units50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="mangrove_units80"/>
+			<m_ObjectName text="mangrove_units80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="pech_Atlas256"/>
+			<m_ObjectName text="pech_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Pech_Atlas36"/>
+			<m_ObjectName text="Pech_Atlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Pech_Atlas45"/>
+			<m_ObjectName text="Pech_Atlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="pech_Atlas48"/>
+			<m_ObjectName text="pech_Atlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Pech_Atlas50"/>
+			<m_ObjectName text="Pech_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Pech_Atlas64"/>
+			<m_ObjectName text="Pech_Atlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="pech_Atlas80"/>
+			<m_ObjectName text="pech_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WATA_BG"/>
+			<m_ObjectName text="WATA_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WATA_FG"/>
+			<m_ObjectName text="WATA_FG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata256"/>
+			<m_ObjectName text="Wata256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata32"/>
+			<m_ObjectName text="Wata32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata45"/>
+			<m_ObjectName text="Wata45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata48"/>
+			<m_ObjectName text="Wata48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata50"/>
+			<m_ObjectName text="Wata50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata55"/>
+			<m_ObjectName text="Wata55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata64"/>
+			<m_ObjectName text="Wata64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wata80"/>
+			<m_ObjectName text="Wata80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

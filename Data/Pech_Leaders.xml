@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_WATA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_VIPERS_DEN" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_WATA" Name="LOC_LEADER_WATA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_WATA" TraitType="TRAIT_LEADER_VIPERS_DEN"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_VIPERS_DEN" Name="LOC_TRAIT_LEADER_VIPERS_DEN_NAME" Description="LOC_TRAIT_LEADER_VIPERS_DEN_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_VIPERS_DEN" ModifierId="TRAIT_PECH_HOME_COMBAT_BONUS"/>
+	</TraitModifiers>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_WATA" ForegroundImage="WATA_FG" BackgroundImage="WATA_BG"/> 
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_WATA" BackgroundImage="WATA_BG"/>
+	</DiplomacyInfo>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_WATA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WATA_QUOTE"/>
+	</LeaderQuotes>
+
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_PECH_HOME_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>COMBAT_BONUS_PECH_TERRITORY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PECH_TERRITORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_PECH_HOME_COMBAT_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_PECH_TERRITORY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>COMBAT_BONUS_PECH_TERRITORY</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PECH_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PECH_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<ModifierStrings>
+		<Row ModifierId="COMBAT_BONUS_PECH_TERRITORY" Context="Preview" Text="LOC_COMBAT_BONUS_PECH_TERRITORY_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	<AiListTypes>
+		<Row ListType="WataCivics"/>
+		<Row ListType="WataTechs"/>
+		<Row ListType="WataWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="WataWonders" LeaderType="TRAIT_LEADER_VIPERS_DEN" System="Buildings"/>
+		<Row ListType="WataTechs" LeaderType="TRAIT_LEADER_VIPERS_DEN" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="WataWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="WataWonders" Item="BUILDING_CHICHEN_ITZA"/>
+		<Row ListType="WataTechs" Item="TECH_MACHINERY"/>
+		<Row ListType="WataTechs" Item="TECH_IRON_WORKING"/>
+	</AiFavoredItems>
+
+</GameInfo>

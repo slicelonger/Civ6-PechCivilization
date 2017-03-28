@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_PECH_NAME" Language="en_US">
+      <Text>Pech</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_WATA_NAME" Language="en_US">
+      <Text>Wata</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_JUNGLE_RICHES_NAME" Language="en_US">
+      <Text>Riches of the Lost City</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_JUNGLE_RICHES_DESCRIPTION" Language="en_US">
+      <Text>Rainforest tiles provide  +1 [ICON_Gold], and allow the construction of Jungle Wood Mills.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_VIPERS_DEN_NAME" Language="en_US">
+      <Text>Viper's Den</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_VIPERS_DEN_DESCRIPTION" Language="en_US">
+      <Text>Melee and Ranged units receive +10 [ICON_Strength] combat when fighting inside districts.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_NAME" Language="en_US">
+      <Text>Temple of the Monkey God</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_DESCRIPTION" Language="en_US">
+      <Text>Temple replacement which grants +2 [ICON_Faith] and [ICON_Culture], +1 [ICON_GREATPROPHET] Great Prophet and +1 [ICON_GREATARTIST] Great Artist point, 1 [ICON_GreatWork_Relic] Relic and 1 [ICON_GreatWork_Landscape] Art slot, and 1 [ICON_CITIZEN] Citizen slot.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_WHITE_WALLS_NAME" Language="en_US">
+      <Text>White Walls</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_WHITE_WALLS_DESCRIPTION" Language="en_US">
+      <Text>Ancient Walls replacement which is 25% cheaper to build/purchase, and carries no maintenance cost.</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_MANGROVE_WARRIOR_NAME" Language="en_US">
+      <Text>Mangrove Warrior</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MANGROVE_WARRIOR_DESCRIPTION" Language="en_US">
+        <Text>Replaces the Swordsman. Requires no Iron resources, and suffers no movement or sight penalties due to Jungle or Forest terrain. As a melee unit, also benefits from the Pech Viper's Den bonus.</Text>
+    </Row>
+
+    <Row Tag="LOC_IMPROVEMENT_PECH_LUMBER_MILL_NAME" Language="en_US">
+      <Text>Jungle Wood Mill</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PECH_LUMBER_MILL_DESCRIPTION" Language="en_US">
+      <Text>Allows Builders to construct a Jungle Wood Mill, which functions like Lumber Mills. Grants +1 [ICON_Food] with the Colonialism civic. Can only be built in the Jungle.</Text>
+    </Row>
+  
+  </LocalizedText>
+</GameData>

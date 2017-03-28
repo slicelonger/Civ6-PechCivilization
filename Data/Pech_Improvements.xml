@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_PECH_LUMBER_MILL" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" Name="LOC_IMPROVEMENT_PECH_LUMBER_MILL_NAME" Description="LOC_IMPROVEMENT_PECH_LUMBER_MILL_DESCRIPTION" Icon="ICON_IMPROVEMENT_PECH_LUMBER_MILL" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" Buildable="true" PrereqTech="TECH_MACHINERY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_JUNGLE_WOOD_MILL"/>
+	</Improvements>
+
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" FeatureType="FEATURE_JUNGLE"/>
+	</Improvement_ValidFeatures>
+
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" YieldType="YIELD_FOOD" YieldChange="0"/>
+	</Improvement_YieldChanges>
+
+	<Improvement_BonusYieldChanges>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_STEEL"/>
+		<Row ImprovementType="IMPROVEMENT_PECH_LUMBER_MILL" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqCivic="CIVIC_COLONIALISM"/>
+	</Improvement_BonusYieldChanges>
+</GameInfo>

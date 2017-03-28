@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WHITE_WALLS" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" ReplacesBuildingType="BUILDING_TEMPLE"/>
+		<Row CivUniqueBuildingType="BUILDING_WHITE_WALLS" ReplacesBuildingType="BUILDING_WALLS"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" Name="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_NAME" Description="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_TEMPLE_OF_THE_MONKEY_GOD"/>
+		<Row BuildingType="BUILDING_WHITE_WALLS" Name="LOC_BUILDING_WHITE_WALLS_NAME" Description="LOC_BUILDING_WHITE_WALLS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="60" AdvisorType="ADVISOR_GENERIC" Maintenance="0" OuterDefenseHitPoints="50" OuterDefenseStrength="2" TraitType="TRAIT_CIVILIZATION_BUILDING_WHITE_WALLS"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" PrereqBuilding="BUILDING_SHRINE"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" PointsPerTurn="1" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" PointsPerTurn="1" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" NumSlots="1" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Row BuildingType="BUILDING_TEMPLE_OF_THE_MONKEY_GOD" NumSlots="1" GreatWorkSlotType="GREATWORKSLOT_ART"/>
+	</Building_GreatWorks>
+</GameInfo>

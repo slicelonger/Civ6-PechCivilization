@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_MANGROVE_WARRIOR" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MANGROVE_WARRIOR" Kind="KIND_TRAIT" />
+		<Row Type="ABILITY_MANGROVE_JUNGLE_AGILITY" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_MANGROVE_WARRIOR" Vocabulary="ABILITY_CLASS" />
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_MANGROVE_WARRIOR" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_MANGROVE_WARRIOR" Tag="CLASS_MANGROVE_WARRIOR"/> 
+		<Row Type="ABILITY_MANGROVE_JUNGLE_AGILITY" Tag="CLASS_MANGROVE_WARRIOR" />
+	</TypeTags>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MANGROVE_WARRIOR" Name="LOC_TRAIT_CIVILIZATION_UNIT_MANGROVE_WARRIOR_NAME"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_PECH" TraitType="TRAIT_CIVILIZATION_UNIT_MANGROVE_WARRIOR"/>
+	</CivilizationTraits>
+
+	<Units>
+		<Row UnitType="UNIT_MANGROVE_WARRIOR" BaseMoves="2" Cost="90" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MANGROVE_WARRIOR_NAME" Description="LOC_UNIT_MANGROVE_WARRIOR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="35" PrereqTech="TECH_IRON_WORKING" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_MANGROVE_WARRIOR"/>
+	</Units>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MANGROVE_WARRIOR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MANGROVE_WARRIOR" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MANGROVE_WARRIOR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MANGROVE_WARRIOR" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MANGROVE_WARRIOR" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_MANGROVE_WARRIOR" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MANGROVE_JUNGLE_AGILITY" Name="LOC_ABILITY_MANGROVE_JUNGLE_AGILITY_NAME" Description="LOC_ABILITY_MANGROVE_JUNGLE_AGILITY_DESCRIPTION" />
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_MANGROVE_JUNGLE_AGILITY" ModifierId="NAGAO_FOREST_MOVEMENT" />
+		<Row UnitAbilityType="ABILITY_MANGROVE_JUNGLE_AGILITY" ModifierId="NAGAO_FOREST_SIGHT" />
+	</UnitAbilityModifiers>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_TEMPLE_OF_THE_MONKEY_GOD"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_TEMPLE_OF_THE_MONKEY_GOD"/>
+	</Unit_BuildingPrereqs>
+	
+</GameInfo>

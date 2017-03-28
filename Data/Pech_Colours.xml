@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_PECH_PRIMARY</Type>
+			<Red>0.477</Red>
+			<Green>0.437</Green>
+			<Blue>0.407</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_PECH_SECONDARY</Type>
+			<Red>0.573</Red>
+			<Green>0.659</Green>
+			<Blue>0.094</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+</GameInfo>

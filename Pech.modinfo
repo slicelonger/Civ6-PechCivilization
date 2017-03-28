@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="21ca734c-65f8-4d2f-bf87-aedb24470ba3" version="3">
+  <Properties>
+    <Name>Pech Civilization</Name>
+    <Teaser>LOC_MOD_TEASER</Teaser>
+    <Description>LOC_MOD_DESCRIPTION</Description>
+    <Authors>slicelonger</Authors>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+  </Properties>
+  
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_WATA</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/Pech_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/Pech_ConfigText.xml</File>
+      <File>Data/Pech_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Data/Pech_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Pech.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+    	<File>Data/Pech_Buildings.xml</File>
+    	<File>Data/Pech_Colours.xml</File>
+    	<File>Data/Pech_Improvements.xml</File>
+    	<File>Data/Pech_PlayerColours.xml</File>
+      <File>Data/Pech_Civilizations.xml</File>
+      <File>Data/Pech_Leaders.xml</File>
+      <File>Data/Pech_Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Data/Pech_ConfigText.xml</File>
+      <File>Data/Pech_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Data/Pech_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Pech.dep</File>
+    </UpdateArt>
+  </InGameActions>	
+  
+  <Files>
+  	<File>ArtDefs/Buildings.artdef</File>
+  	<File>ArtDefs/Units.artdef</File>
+  	<File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Pech.dep</File>
+    <File>Data/Pech_Config.xml</File>
+    <File>Data/Pech_ConfigText.xml</File>
+    <File>Data/Pech_Civilizations.xml</File>
+    <File>Data/Pech_Leaders.xml</File>
+    <File>Data/Pech_Buildings.xml</File>
+    <File>Data/Pech_Colours.xml</File>
+  	<File>Data/Pech_Improvements.xml</File>
+  	<File>Data/Pech_PlayerColours.xml</File>    
+    <File>Data/Pech_Units.xml</File>
+    <File>Data/Pech_Icons.xml</File>
+    <File>Data/Pech_Text.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>       
+  </Files>
+</Mod>

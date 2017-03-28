@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_PECH_NAME" Language="en_US">
+      <Text>Pech</Text>
+    </Row>
+   <Row Tag="LOC_CIVILIZATION_PECH_DESCRIPTION" Language="en_US">
+      <Text>Pech Civilization</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_WATA_NAME" Language="en_US">
+      <Text>Wata</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PECH_ADJECTIVE" Language="en_US">
+      <Text>Pech</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WATA_QUOTE" Language="en_US">
+      <Text>Behold my great creations!</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_JUNGLE_RICHES_NAME" Language="en_US">
+      <Text>Riches of the Lost City</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_JUNGLE_RICHES_DESCRIPTION" Language="en_US">
+      <Text>Rainforest tiles provide  +1 [ICON_Gold], and allow the construction of Jungle Wood Mills.</Text>
+    </Row>
+   <Row Tag="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_NAME" Language="en_US">
+      <Text>Temple of the Monkey God</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_DESCRIPTION" Language="en_US">
+      <Text>Temple replacement which grants +2 [ICON_Faith] and [ICON_Culture], +1 [ICON_GREATPROPHET] Great Prophet and +1 [ICON_GREATARTIST] Great Artist point, 1 [ICON_GreatWork_Relic] Relic and 1 [ICON_GreatWork_Landscape] Art slot, and 1 [ICON_CITIZEN] Citizen slot.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_WHITE_WALLS_NAME" Language="en_US">
+      <Text>White Walls</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_WHITE_WALLS_DESCRIPTION" Language="en_US">
+      <Text>Ancient Walls replacement which is 25% cheaper to build, and carries no maintenance cost.</Text>
+    </Row>
+  
+    <Row Tag="LOC_TRAIT_LEADER_VIPERS_DEN_NAME" Language="en_US">
+      <Text>Viper's Den</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_VIPERS_DEN_DESCRIPTION" Language="en_US">
+      <Text>All units receive +7 [ICON_Strength] combat bonus when fighting within Pech territory.</Text>
+    </Row>
+
+    <Row Tag="LOC_COMBAT_BONUS_PECH_TERRITORY_DESCRIPTION" Language="en_US">
+      <Text>+7 combat in Home territory.</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PECH_LUMBER_MILL_NAME" Language="en_US">
+      <Text>Jungle Wood Mill</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PECH_LUMBER_MILL_DESCRIPTION" Language="en_US">
+      <Text>Allows Builders to construct a Jungle Wood Mill, which functions like Lumber Mills. Grants +1 [ICON_Food] with the Colonialism civic. Can only be built in the Jungle.</Text>
+    </Row>
+
+  <!-- Units -->
+  <Row Tag="LOC_UNIT_MANGROVE_WARRIOR_NAME" Language="en_US">
+    <Text>Mangrove Warrior</Text>
+  </Row>
+  <Row Tag="LOC_UNIT_MANGROVE_WARRIOR_DESCRIPTION" Language="en_US">
+      <Text>Replaces the Swordsman. Requires no Iron resources, and suffers no movement or sight penalties due to Jungle or Forest terrain. As a melee unit, also benefits from the Pech Viper's Den bonus.</Text>
+  </Row>
+
+   <Row Tag="LOC_LOADING_INFO_LEADER_WATA" Language="en_US">
+      <Text>Wata, father of the ancient Pech, deep in the Honduran jungles your people thrived, spawning myths and legends. Inside your walled "city that cannot be entered", your artists and shaman created sculptures and temples, symbols of your culture and riches. But deadly was the viper sting that came to outsiders who sought to approach, with curses and punishments certain to come to interlopers. Safe behind your gleaming walls, Wata, can you reestablish your people's treasures and culture? Can you build a civilization that will stand the test of time?</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WATA_TITLE" Language="en_US">
+	<Text>Wata</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WATA_SUBTITLE" Language="en_US">
+	<Text>Creator and God of the White City</Text>
+    </Row>			
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WATA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	<Text>According to legend, the Pech god Wata brought forth thunder and lighting to create the mythic city of Kao Kamasa for the Pech people..</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	     <Text>The Pech are an indigenous people in northeastern Honduras, previously known as the Paya. Though the exact origin of the Pech people is still unknown, some theorize that the Pech may have been part of a migration of peoples from North to South America 7000 years ago that settled on the land bridge of Central America. In fact, so little is known about the arrival of the Pech in Central America that expeditions and studies continue to this day to investigate the fragements of myths and legends of their origins.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_2" Language="en_US">
+       <Text>Among the myths of the Pech people and their origin lives the legend of the lost City of the Monkey God, also known as the White City (or Kao Kamasa, its Pech name), so named for the gleaming white stone its buildings and walls were constructed from. Legends tell of a city of extreme wealth and advanced culture and art, yet highly isolated. Accessible only by water, the city came to be known as the "city that can't be entered". It was said that outsiders could take nothing out of the city, and that they would be punished if they told anyone where it was. In fact, one myth developed that even approaching the city would cause the interloper to die within a month by snake bite. </Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_3" Language="en_US">
+       <Text>Long sought by archaeologists and adventures, the White City's discovery has been rumored many times through the years -- most recently in late 2015 -- but though many ruins have ever been unearthed in the area, none have been conclusively proven to be the lost White City. Archaelogical sites in the area have revealed great stone plazas, earthen pyramids, and stone monoliths. Amongst these structures is a larged stepped temple, lined with stone effigies of monkeys, guarded by large statues of a frog and a crocodile, coined the "Temple to the Monkey God" by explorers. Along with these larger features have been found many other artifacts, including stone bowls with animal heads, statues of snakes, vultures, and zoomorphic figures, orange pottery with S and dot designs, and ancient razor blades. There is also evidence of terraced agriculture, as well as the use of gold, silver, platinum, and oil.</Text>
+    </Row>
+     <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_4" Language="en_US">
+       <Text>Until the middle of the 17th century, the Pech inhabited the entire region between the large lagoon of Caratasca and El Cabo de Gracios a Dios (Border of Nicaragua). Traditionally isolationists, and proud of their ethnicity and culture, unlike other indigenous groups, the Pech avoided colonization and assimilation with other cultures until recently. </Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_5" Language="en_US">
+       <Text>In the 1970's, the exploitation of forest land by homesteaders and illegal loggers opened the area to manipulation from the outside. The new roads and infrastructures facilitated the mass resettlement of Latino squatters and ranchers, and many indigenous people were chased off their land. Without any legal or judicial support and without any means of defending themselves, many Pech have abandoned their native tongue in favor of Spanish and adopted Latino culture to avoid discrimination. In addition to the loss of their language, and their assimilation into the Latino lifestyles, many intermarried, thus leading to a greater dissolution of the Pech culture and traditions.</Text>
+     </Row>
+<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_6" Language="en_US">
+       <Text>Due to frequent armed conflict with neighboring Miskito tribes and sizable influxes of Latinos, a population of less than 1600 Pech occupy fewer than a dozen villages in two regions. Today, of all the indigenous groups in La Moskitia, the remaining Pech people and the last vestiges of their culture are at the highest risk of extinction</Text> 
+    </Row>
+    
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PECH_CHAPTER_HISTORY_PARA_7" Language="en_US">
+       <Text>The geography of the area is highly jungled, but also includes lagoons, savanna, and Mangrove swamps. The region is accessible mostly by water, and either currently or historically been home to several indigenous peoples, including the Pech. The primary income for the region is through the trapping of lobster, and it hosts many animals, including jaguars, tapirs, peccarys, crocodiles, garza (herons), capuchin monkeys, and manatees.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

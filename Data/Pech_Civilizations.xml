@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_PECH" Kind="KIND_CIVILIZATION"/>
+   		<Row Type="TRAIT_CIVILIZATION_JUNGLE_RICHES" Kind="KIND_TRAIT" />
+   		<Row Type="TRAIT_CIVILIZATION_BUILDING_WHITE_WALLS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_TEMPLE_OF_THE_MONKEY_GOD" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_JUNGLE_WOOD_MILL" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_PECH" Name="LOC_CIVILIZATION_PECH_NAME" Description="LOC_CIVILIZATION_PECH_DESCRIPTION" Adjective="LOC_CIVILIZATION_PECH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_SOUTHAM"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_PECH" LeaderType="LEADER_WATA" CapitalName="Kao Kamasa"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_JUNGLE_RICHES" Name="LOC_TRAIT_CIVILIZATION_JUNGLE_RICHES_NAME" Description="LOC_TRAIT_CIVILIZATION_JUNGLE_RICHES_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WHITE_WALLS" Name="LOC_BUILDING_WHITE_WALLS_NAME" Description="LOC_BUILDING_WHITE_WALLS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TEMPLE_OF_THE_MONKEY_GOD" Name="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_NAME" Description="LOC_BUILDING_TEMPLE_OF_THE_MONKEY_GOD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_JUNGLE_WOOD_MILL" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_JUNGLE_WOOD_MILL_NAME"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_PECH" TraitType="TRAIT_CIVILIZATION_JUNGLE_RICHES"/>
+		<Row CivilizationType="CIVILIZATION_PECH" TraitType="TRAIT_CIVILIZATION_BUILDING_WHITE_WALLS"/>
+		<Row CivilizationType="CIVILIZATION_PECH" TraitType="TRAIT_CIVILIZATION_BUILDING_TEMPLE_OF_THE_MONKEY_GOD"/>
+		<Row CivilizationType="CIVILIZATION_PECH" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_JUNGLE_WOOD_MILL"/>
+	</CivilizationTraits>
+	
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_JUNGLE_RICHES" ModifierId="TRAIT_RAINFOREST_BONUS_GOLD_YIELD" />
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row ModifierId="TRAIT_RAINFOREST_BONUS_GOLD_YIELD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" RunOnce="0" Permanent="0" SubjectRequirementSetId="PLOT_HAS_JUNGLE_REQUIREMENTS" />
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="TRAIT_RAINFOREST_BONUS_GOLD_YIELD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="TRAIT_RAINFOREST_BONUS_GOLD_YIELD" Name="Amount" Value="1" />
+	</ModifierArguments>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Patatahua"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Chilmeca"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Las Marias"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Catacamas"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Choluteca"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Silin"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Santa Maria El Carbon"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Caratasca"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Xeo"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Las Crucitas"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Taguzgalpa"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Culmi"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Buena Vista"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Quiaquimina"/> 
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Xarua"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Aguan"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Sonaguera"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Agalta"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Gualaco"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="San Jose"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Patuca"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Sicre"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Twas"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Platano"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Paulaya"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Plantain"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Mosquitia"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Trujillo"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Sico"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Xucutaco"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Wampu"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Aner"/>
+		<Row CivilizationType="CIVILIZATION_PECH" CityName="Guampu"/>
+	</CityNames>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_PECH" FeatureType="FEATURE_JUNGLE" Tier="2"/>
+	</StartBiasFeatures>
+</GameInfo>
