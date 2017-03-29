@@ -42,6 +42,7 @@
       <File>Data/Pech_Civilizations.xml</File>
       <File>Data/Pech_Leaders.xml</File>
       <File>Data/Pech_Units.xml</File>
+      <File>Data/Pech_TSL_Support.sql</File>
     </UpdateDatabase>
     <UpdateText id="Text">
       <File>Data/Pech_ConfigText.xml</File>
@@ -78,6 +79,7 @@
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
     <File>XLPs/Icons.xlp</File>
-    <File>XLPs/LeaderFallbacks.xlp</File>       
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>Data/Pech_TSL_Support.sql</File>
   </Files>
 </Mod>
